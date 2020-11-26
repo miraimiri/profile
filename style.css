@@ -1,0 +1,166 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Poppins:wght@300&display=swap');
+
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 150%;
+}
+
+h1, h2 {
+  color: #134990;
+  font-family: 'Kalam', cursive;
+  line-height: 200%;
+}
+
+p {
+  color: #220c10;
+  font-size: 16px;
+}
+
+a {
+  color: #575D90;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List */
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+/*　Cards and containers */
+.card-standard {
+  background: #FBFEF9;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  padding: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 65%;
+  position: relative;
+}
+
+.card-footer {
+  background: #FBFEF9;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 170px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    width: 65%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.container-down {
+  display: flex;
+  padding: 16px;
+  justify-content: space-evenly;
+}
+
+/* Special */
+.social {
+  background-color: #;
+  color: #05E8F0;
+}
+
+
+/* Picture and Icon */
+.profile-picture {
+  border-radius: 25% 10%;
+  width: 128px;
+}
+
+.fas, .far, .fa {
+  font-size: 58px;
+  color: #134990;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 2
+}
+.fab {
+  font-size: 40px;
+}
+
+/* Video */
+#background-video {
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Button */
+.btn {
+   background: #FBFEF9;
+   background-image: -webkit-linear-gradient(top, #FBFEF9, #134990);
+   background-image: -moz-linear-gradient(top, #FBFEF9, #134990);
+   background-image: -ms-linear-gradient(top, #FBFEF9, #134990);
+   background-image: -o-linear-gradient(top, #FBFEF9, #134990);
+   background-image: -webkit-gradient(to bottom, #FBFEF9, #134990);
+   -webkit-border-radius: 44px;
+   -moz-border-radius: 44px;
+   border-radius: 44px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: 'Poppins', sans-serif;
+   width: 24vh;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 20px;
+   position: absolute;
+   margin-top: 1em;
+   left: 50%;
+   right: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   -webkit-box-shadow: 4px 1px 6px 0 #666666;
+   -moz-box-shadow: 4px 1px 6px 0 #666666;
+   box-shadow: 4px 1px 6px 0 #666666;
+   text-shadow: 1px 1px 2px #000000;
+   border: solid #5B5B5B 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #000000 1px;
+   background: #FBFEF9;
+   background-image: -webkit-linear-gradient(top, #FBFEF9, #05E8F0);
+   background-image: -moz-linear-gradient(top, #FBFEF9, #05E8F0);
+   background-image: -ms-linear-gradient(top, #FBFEF9, #05E8F0);
+   background-image: -o-linear-gradient(top, #FBFEF9, #05E8F0);
+   background-image: -webkit-gradient(to bottom, #FBFEF9, #05E8F0);
+   -webkit-border-radius: 44px;
+   -moz-border-radius: 44px;
+   border-radius: 44px;
+   text-decoration: none;
+}
+}
